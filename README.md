@@ -10,11 +10,11 @@ The codebook and a worked prompt example are in a separate repository: https://g
 
 ## Notebooks
 
-- `GPTresponse.ipynb`, `Latest_GPTresponse.ipynb`, `GPTresponse_Alomgeer.ipynb`, `GPTResponse_Answers.ipynb`: collecting model responses and computing readability (ARI, SMOG) for model and peer answers
+- `GPTresponse.ipynb`: collecting model responses and computing readability (ARI, SMOG) for model and peer answers
 - `ARI_SMOG_Average.ipynb`: averaging the readability scores
 - `WordCount_GPTResponses.ipynb`: word counts and comparisons
 - `Emotional_Support_Needed.ipynb`, `Emotional_Support_Needed_with_Reasoning.ipynb`: LLM-based labelling of whether a post asks for emotional support
-- `Classifier_EmotionalSupport.ipynb`, `NLP_Classifier.ipynb`: classifiers for emotional support
+- `Classifier_EmotionalSupport.ipynb`, `NLP_Classifier.ipynb`, `GPTResponse_Answers.ipynb`: classifiers for emotional support (the last one fine-tunes DistilBERT)
 
 The notebooks were written in Google Colab, so file paths point to `/content/...`.
 
